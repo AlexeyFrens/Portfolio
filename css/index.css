@@ -1,51 +1,160 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-image: url(https://media.giphy.com/media/l3mZnuz4coJp8EBBm/giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+.section-content {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 111, 0.7960434173669468) 80%,
+    rgba(255, 0, 185, 0.8100490196078431) 100%
+  );
 }
 
-div{
+.main-content{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid white;
-    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+.content-header {
+  text-align: center;
+}
+
+.dropdown {
+  margin-top: 200px;
+}
+
+.main-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info{
+    margin-left: 60px;
+    max-width: 320px;
+    width: 320px;
+    margin-top: 20px;
+}
+
+.lista-info{
+    font-family: "Poppins", sans-serif;
+    line-height: 25px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.info-conteudo{
+    max-width: 320px;
     padding: 20px;
-    background-color:rgba(15, 58, 137, 0.5);
-    backdrop-filter: blur(4px);
+    background-color: rgba(29, 28, 28, 0.4);
 }
 
-/*Entrando na div*/
-
-h1{
-    color: #fff;
-    text-align: center;
+.perfil-img {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-top: 3px solid rgba(255, 0, 185, 0.8100490196078431);
+  border-left: 3px solid rgba(255, 0, 185, 0.8100490196078431);
+  border-right: 5px solid rgba(255, 0, 185, 0.8100490196078431);
+  border-bottom: 5px solid rgba(255, 0, 185, 0.8100490196078431);
 }
 
-h2{
-    color: #fff;
-    margin-bottom: 30px;
+.username {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
 }
 
-button{
-    color: #fff;
-    background-color:rgba(15, 58, 137);
-    border: 2px solid #fff;
-    padding: 10px;
-    border-radius: 20px;
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-button:hover{
-    background-color: rgb(9, 38, 92);
+.conteudos {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.conteudos > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-human {
+  display: flex;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(29, 28, 28, 0.4);
+  margin-left: 20px;
+  width: 500px;
+}
+
+.human {
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.img-human {
+  margin-right: 10px;
+}
+
+.img-proj{
+    width: 70px;
+    height: 60px;
+}
+
+.img-next {
+  padding: 10px;
+  color: #000;
+  border-radius: 10px;
+  background-color: #7fff00;
+  border: 3px solid rgb(15, 18, 13);
+}
+
+.img-next:hover {
+  background-color: rgb(44, 86, 5);
+  border: 3px solid rgb(236, 242, 232);
+  color: #fff;
+}
+
+.next-content, .next-information {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.next-content{
+    max-width: 500px;
+    width: 500px;
+}
+
+.next-information{
+    max-width: 320px;
+    width: 320px;
 }
