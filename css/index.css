@@ -66,6 +66,12 @@
     background-color: rgba(29, 28, 28, 0.4);
 }
 
+.info-interesse{
+  margin-top: 20px;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 20px;
+}
+
 .perfil-img {
   margin-top: 50px;
   width: 150px;
@@ -93,6 +99,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  max-height: 700px;
 }
 
 .conteudos > div {
@@ -101,7 +108,7 @@ body {
   justify-content: space-between;
 }
 
-.content-human {
+.content-human, .content-tec {
   display: flex;
   margin-top: 20px;
   padding: 15px;
@@ -110,14 +117,64 @@ body {
   width: 500px;
 }
 
-.human {
+.human, .tec {
   margin-top: 10px;
   margin-right: 10px;
   color: #fff;
 }
 
-.img-human {
+.conteudos-tec{
+  margin-top: -410px;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 900px;
+  margin-bottom: 50px;
+}
+
+.conteudos-tec > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-certificado{
+  margin-top: 20px;
+}
+
+.certificado{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.certificado-name{
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+.img-certificado{
+  width: 50px;
+}
+
+.img-human, .img-tec {
   margin-right: 10px;
+}
+
+.img-tec{
+  width: 70px;
+}
+
+.img-tec1{
+  width: 160px;
+  height: 100px;
 }
 
 .img-proj{
@@ -157,4 +214,43 @@ body {
 .next-information{
     max-width: 320px;
     width: 320px;
+}
+
+.interesse-title, .title-cert{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tec-title{
+  width: 500px;
+  margin-left: 20px;
+}
+
+.title-tec{
+  margin-top: -450px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 10px;
+  text-align: center;
+}
+
+.final{
+  width: 900px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.palavras-finais{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
 }
