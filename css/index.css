@@ -40,6 +40,16 @@
   margin-top: 200px;
 }
 
+#botao-config{
+  background-color: rgba(255, 0, 185, 0.8100490196078431);
+  border: 2px solid rgba(255, 0, 185, 0.8100490196078431);
+}
+
+.botao-config:hover{
+  background-color: rgba(163, 4, 121, 0.81) !important;
+  border: 2px solid rgba(163, 4, 121, 0.81) !important;
+}
+
 .main-title{
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +202,7 @@ body {
 }
 
 .img-next:hover {
-  background-color: rgb(44, 86, 5);
+  background-color: rgb(83, 165, 6);
   border: 3px solid rgb(236, 242, 232);
   color: #fff;
 }

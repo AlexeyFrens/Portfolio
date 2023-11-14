@@ -1,0 +1,47 @@
+
+body{
+    background-color: lightslategray;
+}
+
+.section-content{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 250px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.6);
+    border: 4px solid rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.botao1{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao2{
+    background-image: url("https://i.gifer.com/RXi9.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao3{
+    background-image: url("https://i.gifer.com/2swA.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao4{
+    background-image: url("https://i.gifer.com/3sN2.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+
+
+
