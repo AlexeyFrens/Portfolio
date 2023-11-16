@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 9, 111, 0.7960434173669468) 80%,
+    rgba(255, 0, 185, 0.8100490196078431) 100%
+  );
+}
+
+.home{
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 185, 0.8100490196078431);
+  border-radius: 100%;
+  padding: 20px;
+}
+
+.home:hover{
+  background-color: rgba(121, 9, 111, 0.7960434173669468);
+}
+
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#carouselExample{
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+.title{
+  margin-top: 20px;
+  text-align: center;
+  width: 900px;
+}
+
+p, h1{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h2{
+  margin-bottom: 40px;
+}
+
+.textin{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}

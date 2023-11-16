@@ -38,6 +38,7 @@ $(document).ready(function () {
         var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(135, 122, 166, 0.796) 80%, rgb(199, 186, 217, 0.81) 100%)";
         var coresGerais = "rgb(199, 186, 217)"
         var coresTexto = "black"
+
         // Armazenar a configuração no localStorage
         localStorage.setItem("backgroundImage", imageUrl);
         localStorage.setItem("backgroundColor", gradientColor);

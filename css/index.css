@@ -63,6 +63,12 @@
     margin-top: 20px;
 }
 
+.info-port{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
 .lista-info{
     font-family: "Poppins", sans-serif;
     line-height: 25px;
@@ -105,7 +111,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.conteudos {
+.conteudos{
   max-width: 500px;
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +125,7 @@ body {
   justify-content: space-between;
 }
 
-.content-human, .content-tec {
+.content-human, .content-tec, .port-info{
   display: flex;
   margin-top: 20px;
   padding: 15px;
@@ -128,9 +134,22 @@ body {
   width: 500px;
 }
 
-.human, .tec {
+.port-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.human, .tec{
   margin-top: 10px;
   margin-right: 10px;
+  color: #fff;
+}
+
+.port-name{
   color: #fff;
 }
 
@@ -175,8 +194,12 @@ body {
   width: 50px;
 }
 
-.img-human, .img-tec {
+.img-human, .img-tec, .img-port {
   margin-right: 10px;
+}
+
+.img-port{
+  width: 60px;
 }
 
 .img-tec{
@@ -199,6 +222,7 @@ body {
   border-radius: 10px;
   background-color: #7fff00;
   border: 3px solid rgb(15, 18, 13);
+  text-decoration: none;
 }
 
 .img-next:hover {
@@ -207,7 +231,7 @@ body {
   color: #fff;
 }
 
-.next-content, .next-information {
+.next-content, .next-information{
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #fff;
@@ -215,6 +239,19 @@ body {
   padding: 10px;
   text-align: center;
   margin: 0 20px;
+}
+
+.portfolio-title{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: 0 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  width: 500px;
 }
 
 .next-content{
