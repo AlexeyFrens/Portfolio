@@ -54,6 +54,19 @@ body {
   width: 900px;
 }
 
+.other-title{
+  margin-top: 20px;
+  text-align: center;
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.audiooo{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 p, h1{
   margin-left: 50px;
   margin-right: 50px;
@@ -67,4 +80,9 @@ h2{
   margin-top: 20px;
   margin-bottom: 20px;
   color: #fff;
+}
+
+.wolke-img{
+  width: 100px;
+  margin-left: 10px;
 }

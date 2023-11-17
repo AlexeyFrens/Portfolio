@@ -15,11 +15,11 @@ $(document).ready(function () {
         $("#botao-config").css("background-color", coresGerais);
         $("#botao-config").css("border", "2px solid " + coresGerais);
         $(".title").css("color", coresGerais);
+        $(".other-title").css("color", coresGerais);
         $(".subtitle").css("color", coresGerais);
         $(".home").css("background-color", coresGerais);
     }
     if (coresTexto) {
         $("#botao-config").css("color", coresTexto);
-        $(".palavras-finais").css("color", coresTexto);
     }
 });
