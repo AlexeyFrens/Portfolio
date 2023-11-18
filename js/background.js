@@ -9,7 +9,7 @@ $(document).ready(function () {
         localStorage.setItem("backgroundColor", gradientColor);
         localStorage.setItem("ColorGeral", coresGerais);
         // Redirecionar para a página index.html
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     });
     $(".botao2").click(function () {
         var imageUrl = "https://i.gifer.com/RXi9.gif";
@@ -20,7 +20,7 @@ $(document).ready(function () {
         localStorage.setItem("backgroundColor", gradientColor);
         localStorage.setItem("ColorGeral", coresGerais);
         // Redirecionar para a página index.html
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     });
     $(".botao3").click(function () {
         var imageUrl = "https://i.gifer.com/2swA.gif";
@@ -31,7 +31,7 @@ $(document).ready(function () {
         localStorage.setItem("backgroundColor", gradientColor);
         localStorage.setItem("ColorGeral", coresGerais);
         // Redirecionar para a página index.html
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     });
     $(".botao4").click(function () {
         var imageUrl = "https://i.gifer.com/3sN2.gif";
@@ -45,7 +45,7 @@ $(document).ready(function () {
         localStorage.setItem("ColorGeral", coresGerais);
         localStorage.setItem("textColor", coresTexto);
         // Redirecionar para a página index.html
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     });
 });
 

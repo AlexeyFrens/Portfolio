@@ -72,8 +72,16 @@ p, h1{
   margin-right: 50px;
 }
 
-h2{
-  margin-bottom: 40px;
+.uau{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(29, 28, 28, 0.4);
+  padding: 10px;
+  text-align: center;
+  max-width: 800px;
+  width: 800px;
+  border-radius: 6px;
 }
 
 .textin{
@@ -85,4 +93,12 @@ h2{
 .wolke-img{
   width: 100px;
   margin-left: 10px;
+}
+
+.realidade-img{
+  width: 800px;
+}
+
+#img-realidade{
+  margin-bottom: 40px;
 }
