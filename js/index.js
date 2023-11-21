@@ -4,6 +4,7 @@ $(document).ready(function () {
     var gradientColor = localStorage.getItem("backgroundColor");
     var coresGerais = localStorage.getItem("ColorGeral");
     var coresTexto = localStorage.getItem("textColor");
+    var backPort = localStorage.getItem("Port");
     if (imageUrl) {
         $(".background-body").css("background-image", "url(" + imageUrl + ")");
     }
@@ -21,5 +22,8 @@ $(document).ready(function () {
     }
     if (coresTexto) {
         $("#botao-config").css("color", coresTexto);
+    }
+    if (backPort) {
+        $(".info-conteudo-port").css("background-color", backPort);
     }
 });
