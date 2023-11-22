@@ -6,7 +6,7 @@ body{
 .section-content{
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 100px;
     color: #fff;
     text-align: center;
     background-color: rgba(10, 10, 10, 0.6);
@@ -37,6 +37,34 @@ body{
 
 .botao4{
     background-image: url("../image/background44.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao5{
+    background-image: url("../image/background5.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao6{
+    background-image: url("../image/background6.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao7{
+    background-image: url("../image/background7.gif");
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.botao8{
+    background-image: url("../image/background8.gif");
     background-size: cover;
     width: 150px;
     height: 100px;

@@ -42,9 +42,73 @@ $(document).ready(function () {
     $(".botao4").click(function () {
         var imageUrl = "../image/background44.gif";
         var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(84, 111, 192, 0.796) 80%, rgb(136, 201, 242, 0.81) 100%)";
-        var coresGerais = "rgb(199, 186, 217)"
+        var coresGerais = "rgb(136, 201, 242, 0.81)"
         var coresTexto = "black"
-        var backPort = "rgb(135, 122, 166, 0.4)"
+        var backPort = "rgb(84, 111, 192, 0.4)"
+
+        // Armazenar a configuração no localStorage
+        localStorage.setItem("backgroundImage", imageUrl);
+        localStorage.setItem("backgroundColor", gradientColor);
+        localStorage.setItem("ColorGeral", coresGerais);
+        localStorage.setItem("textColor", coresTexto);
+        localStorage.setItem("Port", backPort);
+        // Redirecionar para a página index.html
+        window.location.href = "../index.html";
+    });
+    $(".botao5").click(function () {
+        var imageUrl = "../image/background5.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(27, 29, 65, 0.796) 80%, rgb(45, 75, 164, 0.81) 100%)";
+        var coresGerais = "rgb(45, 75, 164, 0.81)"
+        var coresTexto = "black"
+        var backPort = "rgb(27, 29, 65, 0.4)"
+
+        // Armazenar a configuração no localStorage
+        localStorage.setItem("backgroundImage", imageUrl);
+        localStorage.setItem("backgroundColor", gradientColor);
+        localStorage.setItem("ColorGeral", coresGerais);
+        localStorage.setItem("textColor", coresTexto);
+        localStorage.setItem("Port", backPort);
+        // Redirecionar para a página index.html
+        window.location.href = "../index.html";
+    });
+    $(".botao6").click(function () {
+        var imageUrl = "../image/background6.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(29, 72, 88, 0.796) 80%, rgb(73, 116, 116, 0.81) 100%)";
+        var coresGerais = "rgb(73, 116, 116, 0.81)"
+        var coresTexto = "black"
+        var backPort = "rgb(29, 72, 88, 0.4)"
+
+        // Armazenar a configuração no localStorage
+        localStorage.setItem("backgroundImage", imageUrl);
+        localStorage.setItem("backgroundColor", gradientColor);
+        localStorage.setItem("ColorGeral", coresGerais);
+        localStorage.setItem("textColor", coresTexto);
+        localStorage.setItem("Port", backPort);
+        // Redirecionar para a página index.html
+        window.location.href = "../index.html";
+    });
+    $(".botao7").click(function () {
+        var imageUrl = "../image/background7.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(2, 72, 116, 0.796) 80%, rgb(54, 187, 217, 0.81) 100%)";
+        var coresGerais = "rgb(54, 187, 217, 0.81)"
+        var coresTexto = "black"
+        var backPort = "rgb(2, 72, 116, 0.4)"
+
+        // Armazenar a configuração no localStorage
+        localStorage.setItem("backgroundImage", imageUrl);
+        localStorage.setItem("backgroundColor", gradientColor);
+        localStorage.setItem("ColorGeral", coresGerais);
+        localStorage.setItem("textColor", coresTexto);
+        localStorage.setItem("Port", backPort);
+        // Redirecionar para a página index.html
+        window.location.href = "../index.html";
+    });
+    $(".botao8").click(function () {
+        var imageUrl = "../image/background8.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(216, 157, 105, 0.796) 80%, rgb(242, 196, 156, 0.81) 100%)";
+        var coresGerais = "rgb(242, 196, 156, 0.81)"
+        var coresTexto = "black"
+        var backPort = "rgb(216, 157, 105, 0.4)"
 
         // Armazenar a configuração no localStorage
         localStorage.setItem("backgroundImage", imageUrl);
