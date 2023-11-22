@@ -25,5 +25,6 @@ $(document).ready(function () {
     }
     if (backPort) {
         $(".info-conteudo-port").css("background-color", backPort);
+        $(".info-primary").css("background-color", backPort);
     }
 });

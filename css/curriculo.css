@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background-color: rgba(255, 0, 185, 0.8100490196078431);
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.home-img{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.background-body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curriculo{
+    max-width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr{
+    width: 40px;
+}
+
+.info-primary{
+    padding-left: 10px;
+    padding-top: 10px;
+    max-width: 300px;
+    background-color: rgba(121, 9, 111, 0.7960434173669468);
+}
+
+.info-secudary{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.primary-name{
+    color: white;
+}
+
+.primary-title{
+    color: white;
+}
+
+p{
+    color: black;
+    text-align: justify;
+}
+
+.linkedin{
+    color: white;
+    text-decoration: none;
+}

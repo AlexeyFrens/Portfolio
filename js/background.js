@@ -40,8 +40,8 @@ $(document).ready(function () {
         window.location.href = "../index.html";
     });
     $(".botao4").click(function () {
-        var imageUrl = "https://i.gifer.com/3sN2.gif";
-        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(135, 122, 166, 0.796) 80%, rgb(199, 186, 217, 0.81) 100%)";
+        var imageUrl = "../image/background44.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(84, 111, 192, 0.796) 80%, rgb(136, 201, 242, 0.81) 100%)";
         var coresGerais = "rgb(199, 186, 217)"
         var coresTexto = "black"
         var backPort = "rgb(135, 122, 166, 0.4)"
