@@ -119,6 +119,22 @@ $(document).ready(function () {
         // Redirecionar para a página index.html
         window.location.href = "../index.html";
     });
+    $(".botao9").click(function () {
+        var imageUrl = "../image/background9.gif";
+        var gradientColor = "linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgb(90, 109, 216, 0.796) 80%, rgb(126, 155, 242, 0.81) 100%)";
+        var coresGerais = "rgb(126, 155, 242, 0.81)"
+        var coresTexto = "black"
+        var backPort = "rgb(90, 109, 216, 0.4)"
+
+        // Armazenar a configuração no localStorage
+        localStorage.setItem("backgroundImage", imageUrl);
+        localStorage.setItem("backgroundColor", gradientColor);
+        localStorage.setItem("ColorGeral", coresGerais);
+        localStorage.setItem("textColor", coresTexto);
+        localStorage.setItem("Port", backPort);
+        // Redirecionar para a página index.html
+        window.location.href = "../index.html";
+    });
 });
 
 

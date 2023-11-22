@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
 body{
-    background-color: lightslategray;
+    background-color: rgb(69, 124, 106);
+}
+
+h1{
+    font-family: 'Pixelify Sans', sans-serif;
+    color:mediumaquamarine;
+    text-shadow: 2px 2px 2px black;
 }
 
 .section-content{
-    max-width: 400px;
-    margin: 0 auto;
-    margin-top: 100px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 10%;
     color: #fff;
     text-align: center;
     background-color: rgba(10, 10, 10, 0.6);
@@ -17,59 +24,65 @@ body{
 .botao1{
     background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao2{
     background-image: url("https://i.gifer.com/RXi9.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao3{
     background-image: url("https://i.gifer.com/2swA.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao4{
     background-image: url("../image/background44.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao5{
     background-image: url("../image/background5.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao6{
     background-image: url("../image/background6.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao7{
     background-image: url("../image/background7.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
 .botao8{
     background-image: url("../image/background8.gif");
     background-size: cover;
-    width: 150px;
+    width: 200px;
     height: 100px;
 }
 
+.botao9{
+    background-image: url("../image/background9.gif");
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
 
 
 
