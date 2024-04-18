@@ -90,8 +90,10 @@
 
 .perfil-img {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  max-width: 190px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
   border-top: 3px solid rgba(255, 0, 185, 0.8100490196078431);
   border-left: 3px solid rgba(255, 0, 185, 0.8100490196078431);
   border-right: 5px solid rgba(255, 0, 185, 0.8100490196078431);
