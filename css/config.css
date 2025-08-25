@@ -43,7 +43,7 @@ h1{
 }
 
 .botao4{
-    background-image: url("../image/background44.gif");
+    background-image: url("../image/background4.gif");
     background-size: cover;
     width: 200px;
     height: 100px;
@@ -79,6 +79,13 @@ h1{
 
 .botao9{
     background-image: url("../image/background9.gif");
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+}
+
+.botao10{
+    background-image: url("../image/background10.gif");
     background-size: cover;
     width: 200px;
     height: 100px;

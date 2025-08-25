@@ -7,6 +7,9 @@ $(document).ready(function () {
     var backPort = localStorage.getItem("Port");
     if (imageUrl) {
         $(".background-body").css("background-image", "url(" + imageUrl + ")");
+        if(!(imageUrl.startsWith('https'))) {
+            $(".inside").css("background-image", "url(." + imageUrl + ")")
+        }
     }
     if (gradientColor) {
         $(".section-content").css("background", gradientColor);
